@@ -1,14 +1,17 @@
 \name{randomUnitary}
 \alias{randomUnitary}
 \title{Random unitary}
+\description{
+Returns a square complex matrix sampled from the Haar random unitary distribution.
+}
 \usage{
 randomUnitary(size)
 }
 \arguments{
 \item{size}{dimension of matrix}
 }
-\description{
-Generates a random unitary matrix (square)
+\value{
+  A square complex matrix.
 }
 \examples{
 m <- 25 # size of matrix (m x m)

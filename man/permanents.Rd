@@ -18,10 +18,10 @@ cxPermMinors(C)
   \item{C}{a rectangular complex matrix where \code{nrow(C) = ncol(C) + 1}.}
 }
 \value{
-  \code{cxPerm(A)} returns the permanent of the complex matrix \code{A}.\cr
-  \code{rePerm(B)} returns the permanent of the real matrix \code{B}.\cr
-  \code{cxPermMinors(C)} returns the vector of permanents of all \code{ncol(C)}-dimensional square matrices
-  constructed by removing individual rows from \code{C}.
+  \code{cxPerm(A)} returns a complex number: the permanent of the complex matrix \code{A}.\cr
+  \code{rePerm(B)} returns a real number: the permanent of the real matrix \code{B}.\cr
+  \code{cxPermMinors(C)} returns a complex vector of length \code{ncol(C)+1}: the permanents of all 
+  \code{ncol(C)}-dimensional square matrices constructed by removing individual rows from \code{C}.
 }
 \details{
 Permanents are evaluated using Glynn's formula (equivalently that of Nijenhuis and Wilf (1978))

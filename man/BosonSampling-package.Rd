@@ -8,11 +8,10 @@
 \packageDescription{BosonSampling}
 }
 \details{
-
 \packageIndices{BosonSampling}
 }
 \author{
-\packageAuthor{BosonSampling}
+Peter Clifford <peter.clifford@jesus.ox.ac.uk> and Raphaël Clifford <clifford@cs.bris.ac.uk>
 
-Maintainer:  \packageMaintainer{BosonSampling}
+Maintainer: \packageMaintainer{BosonSampling}
 }
