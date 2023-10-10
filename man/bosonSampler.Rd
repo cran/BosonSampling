@@ -44,7 +44,7 @@ A <- randomUnitary(m)[,1:n]
 valueList <- bosonSampler(A, sampleSize = 10)$values 
 valueList
 # sample of output multisets 
-apply(valueList,1, sort) 
+apply(valueList,2, sort) 
 #
 set.seed(7)
 n <- 12  # number of photons

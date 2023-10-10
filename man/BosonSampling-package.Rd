@@ -11,7 +11,7 @@
 \packageIndices{BosonSampling}
 }
 \author{
-Peter Clifford <peter.clifford@jesus.ox.ac.uk> and Raphaël Clifford <clifford@cs.bris.ac.uk>
+Peter Clifford <peter.clifford@jesus.ox.ac.uk> and RaphaÃ«l Clifford <clifford@cs.bris.ac.uk>
 
 Maintainer: \packageMaintainer{BosonSampling}
 }
